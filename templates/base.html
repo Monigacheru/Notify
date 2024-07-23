@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notify | {% block title %}{% endblock title %}</title>
+        {% include './dependancies/css.html' %}
+    </head>
+    <body class="flex flex-col min-h-screen">
+        {% if request.user.is_authenticated %}
+            {% include 'components/header.html' %}
+            <div class="flex flex-1">
+                {% include 'components/sidebar.html' %}
+                <main class="flex-1 p-4 mt-14 sm:ml-64">
+                    {% block body %}{% endblock body %}
+                </main>
+            </div>
+            {% else %}
+            {% include 'components/header_.html' %}
+            <main class="flex-1 p-4 mt-14">
+                {% block body_ %}{% endblock body_ %}
+            </main>
+        {% endif %}
+    {% include 'components/footer.html' %}
+    {% include './dependancies/js.html' %}
+    </body>
+</html>

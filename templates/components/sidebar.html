@@ -1,0 +1,174 @@
+<aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full border-r sm:translate-x-0 bg-gray-800 border-gray-700" aria-label="Sidebar">
+    <div class="h-full px-3 pb-4 overflow-y-auto bg-gray-800">
+        <ul class="space-y-2 font-medium">
+            <li>
+                <a href="{% url 'core:dashboard' %}" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group">
+                    <svg
+                        class="w-10"
+                        viewBox="0 -0.5 25 25"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M20.25 9C20.25 8.58579 19.9142 8.25 19.5 8.25C19.0858 8.25 18.75 8.58579 18.75 9L20.25 9ZM11.5 18.25C11.0858 18.25 10.75 18.5858 10.75 19C10.75 19.4142 11.0858 19.75 11.5 19.75V18.25ZM18.75 9C18.75 9.41421 19.0858 9.75 19.5 9.75C19.9142 9.75 20.25 9.41421 20.25 9L18.75 9ZM11.5 4.25C11.0858 4.25 10.75 4.58579 10.75 5C10.75 5.41421 11.0858 5.75 11.5 5.75V4.25ZM19.5 9.75C19.9142 9.75 20.25 9.41421 20.25 9C20.25 8.58579 19.9142 8.25 19.5 8.25V9.75ZM11.5 8.25C11.0858 8.25 10.75 8.58579 10.75 9C10.75 9.41421 11.0858 9.75 11.5 9.75V8.25ZM6.25 12C6.25 11.5858 5.91421 11.25 5.5 11.25C5.08579 11.25 4.75 11.5858 4.75 12H6.25ZM11.5 19.75C11.9142 19.75 12.25 19.4142 12.25 19C12.25 18.5858 11.9142 18.25 11.5 18.25V19.75ZM4.75 12C4.75 12.4142 5.08579 12.75 5.5 12.75C5.91421 12.75 6.25 12.4142 6.25 12H4.75ZM11.5 5.75C11.9142 5.75 12.25 5.41421 12.25 5C12.25 4.58579 11.9142 4.25 11.5 4.25V5.75ZM5.5 11.25C5.08579 11.25 4.75 11.5858 4.75 12C4.75 12.4142 5.08579 12.75 5.5 12.75L5.5 11.25ZM11.5 12.75C11.9142 12.75 12.25 12.4142 12.25 12C12.25 11.5858 11.9142 11.25 11.5 11.25V12.75ZM12.25 12C12.25 11.5858 11.9142 11.25 11.5 11.25C11.0858 11.25 10.75 11.5858 10.75 12H12.25ZM10.75 19C10.75 19.4142 11.0858 19.75 11.5 19.75C11.9142 19.75 12.25 19.4142 12.25 19H10.75ZM10.75 12C10.75 12.4142 11.0858 12.75 11.5 12.75C11.9142 12.75 12.25 12.4142 12.25 12H10.75ZM12.25 9C12.25 8.58579 11.9142 8.25 11.5 8.25C11.0858 8.25 10.75 8.58579 10.75 9H12.25ZM12.25 5C12.25 4.58579 11.9142 4.25 11.5 4.25C11.0858 4.25 10.75 4.58579 10.75 5H12.25ZM10.75 9C10.75 9.41421 11.0858 9.75 11.5 9.75C11.9142 9.75 12.25 9.41421 12.25 9H10.75ZM18.75 9V15H20.25V9L18.75 9ZM18.75 15C18.75 16.7949 17.2949 18.25 15.5 18.25V19.75C18.1234 19.75 20.25 17.6234 20.25 15H18.75ZM15.5 18.25H11.5V19.75H15.5V18.25ZM20.25 9C20.25 6.37665 18.1234 4.25 15.5 4.25L15.5 5.75C17.2949 5.75 18.75 7.20507 18.75 9L20.25 9ZM15.5 4.25H11.5V5.75H15.5L15.5 4.25ZM19.5 8.25H11.5V9.75H19.5V8.25ZM4.75 12V15H6.25V12H4.75ZM4.75 15C4.75 17.6234 6.87665 19.75 9.5 19.75V18.25C7.70507 18.25 6.25 16.7949 6.25 15H4.75ZM9.5 19.75H11.5V18.25H9.5V19.75ZM6.25 12L6.25 9H4.75L4.75 12H6.25ZM6.25 9C6.25 7.20507 7.70507 5.75 9.5 5.75V4.25C6.87665 4.25 4.75 6.37665 4.75 9H6.25ZM9.5 5.75H11.5V4.25H9.5V5.75ZM5.5 12.75H11.5V11.25H5.5L5.5 12.75ZM10.75 12V19H12.25V12H10.75ZM12.25 12V9H10.75V12H12.25ZM10.75 5V9H12.25V5H10.75Z" fill="#ffffff"></path>
+                        </g>
+                    </svg>
+                    <span class="ms-3">
+                        Dashboard
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'core:contact-list' %}" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group">
+                    <svg
+                        class="w-10"
+                        fill="#ffffff"
+                        viewBox="0 0 16 16"
+                        id="contacts-16px"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                id="Path_131"
+                                data-name="Path 131"
+                                d="M33,6a2,2,0,1,0-2,2A2,2,0,0,0,33,6ZM31,7a1,1,0,1,1,1-1A1,1,0,0,1,31,7Zm7.5-1H38V3.5A3.5,3.5,0,0,0,34.5,0h-10a.5.5,0,0,0-.5.5V2.045h-.5a.5.5,0,0,0,0,1H24V6h-.5a.5.5,0,0,0,0,1H24v3h-.5a.5.5,0,0,0,0,1H24v3h-.5a.5.5,0,0,0,0,1H24v.5a.5.5,0,0,0,.5.5h10A3.5,3.5,0,0,0,38,12.5V10h.5a.5.5,0,0,0,.5-.5v-3A.5.5,0,0,0,38.5,6ZM38,9H37a1,1,0,0,1,0-2h1Zm-1,3.5A2.5,2.5,0,0,1,34.5,15h-9a.5.5,0,0,0,0-1H25V11h.5a.5.5,0,0,0,0-1H25V7h.5a.5.5,0,0,0,0-1H25V3.045h.545a.5.5,0,0,0,0-1H25V1h9.5A2.5,2.5,0,0,1,37,3.5V6a2,2,0,0,0,0,4ZM31.5,8h-1A3.5,3.5,0,0,0,27,11.5,1.5,1.5,0,0,0,28.5,13h5A1.5,1.5,0,0,0,35,11.5,3.5,3.5,0,0,0,31.5,8Zm2,4h-5a.5.5,0,0,1-.5-.5A2.5,2.5,0,0,1,30.5,9h1A2.5,2.5,0,0,1,34,11.5.5.5,0,0,1,33.5,12Z"
+                                transform="translate(-23)"
+                            ></path>
+                        </g>
+                    </svg>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Contacts</span>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'core:category-list' %}" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group">
+                    <svg
+                        class="w-10"
+                        fill="#ffffff"
+                        viewBox="0 0 64 64"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xml:space="preserve"
+                        xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                    >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <rect
+                                id="Icons"
+                                x="-384"
+                                y="-320"
+                                width="1280"
+                                height="800"
+                                style="fill:none;"
+                            ></rect>
+                            <g id="Icons1" serif:id="Icons">
+                                <g id="Strike"></g>
+                                <g id="H1"></g>
+                                <g id="H2"></g>
+                                <g id="H3"></g>
+                                <g id="list-ul"></g>
+                                <g id="hamburger-1"></g>
+                                <g id="hamburger-2"></g>
+                                <g id="list-ol"></g>
+                                <g id="list-task"></g>
+                                <g id="trash"></g>
+                                <g id="vertical-menu"></g>
+                                <g id="horizontal-menu"></g>
+                                <g id="sidebar-2"></g>
+                                <g id="Pen"></g>
+                                <g id="Pen1" serif:id="Pen"></g>
+                                <g id="clock"></g>
+                                <g id="external-link"></g>
+                                <g id="hr"></g>
+                                <g id="info"></g>
+                                <g id="warning"></g>
+                                <g id="plus-circle"></g>
+                                <g id="minus-circle"></g>
+                                <g id="vue"></g>
+                                <g id="cog"></g>
+                                <g id="logo"></g>
+                                <g id="radio-check"></g>
+                                <g id="eye-slash"></g>
+                                <g id="eye"></g>
+                                <g id="toggle-off"></g>
+                                <g id="shredder"></g>
+                                <g>
+                                    <path d="M9.89,30.496c-1.14,1.122 -1.784,2.653 -1.791,4.252c-0.006,1.599 0.627,3.135 1.758,4.266c3.028,3.028 7.071,7.071 10.081,10.082c2.327,2.326 6.093,2.349 8.448,0.051c5.91,-5.768 16.235,-15.846 19.334,-18.871c0.578,-0.564 0.905,-1.338 0.905,-2.146c0,-4.228 0,-17.607 0,-17.607l-17.22,0c-0.788,0 -1.544,0.309 -2.105,0.862c-3.065,3.018 -13.447,13.239 -19.41,19.111Zm34.735,-15.973l0,11.945c0,0.811 -0.329,1.587 -0.91,2.152c-3.069,2.981 -13.093,12.718 -17.485,16.984c-1.161,1.127 -3.012,1.114 -4.157,-0.031c-2.387,-2.386 -6.296,-6.296 -8.709,-8.709c-0.562,-0.562 -0.876,-1.325 -0.872,-2.12c0.003,-0.795 0.324,-1.555 0.892,-2.112c4.455,-4.373 14.545,-14.278 17.573,-17.25c0.561,-0.551 1.316,-0.859 2.102,-0.859c3.202,0 11.566,0 11.566,0Zm-7.907,2.462c-1.751,0.015 -3.45,1.017 -4.266,2.553c-0.708,1.331 -0.75,2.987 -0.118,4.356c0.836,1.812 2.851,3.021 4.882,2.809c2.042,-0.212 3.899,-1.835 4.304,-3.896c0.296,-1.503 -0.162,-3.136 -1.213,-4.251c-0.899,-0.953 -2.18,-1.548 -3.495,-1.57c-0.031,-0.001 -0.062,-0.001 -0.094,-0.001Zm0.008,2.519c1.105,0.007 2.142,0.849 2.343,1.961c0.069,0.384 0.043,0.786 -0.09,1.154c-0.393,1.079 -1.62,1.811 -2.764,1.536c-1.139,-0.274 -1.997,-1.489 -1.802,-2.67c0.177,-1.069 1.146,-1.963 2.27,-1.981c0.014,0 0.029,0 0.043,0Z"></path>
+                                    <path d="M48.625,13.137l0,4.001l3.362,0l0,11.945c0,0.811 -0.328,1.587 -0.909,2.152c-3.069,2.981 -13.093,12.717 -17.485,16.983c-1.161,1.128 -3.013,1.114 -4.157,-0.03l-0.034,-0.034l-1.016,0.993c-0.663,0.646 -1.437,1.109 -2.259,1.389l1.174,1.174c2.327,2.327 6.093,2.35 8.447,0.051c5.91,-5.768 16.235,-15.845 19.335,-18.87c0.578,-0.565 0.904,-1.339 0.904,-2.147c0,-4.227 0,-17.607 0,-17.607l-7.362,0Z"></path>
+                                </g>
+                                <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"></g>
+                                <g id="react"></g>
+                                <g id="check-selected"></g>
+                                <g id="turn-off"></g>
+                                <g id="code-block"></g>
+                                <g id="user"></g>
+                                <g id="coffee-bean"></g>
+                                <g id="coffee-beans">
+                                    <g id="coffee-bean1" serif:id="coffee-bean"></g>
+                                </g>
+                                <g id="coffee-bean-filled"></g>
+                                <g id="coffee-beans-filled">
+                                    <g id="coffee-bean2" serif:id="coffee-bean"></g>
+                                </g>
+                                <g id="clipboard"></g>
+                                <g id="clipboard-paste"></g>
+                                <g id="clipboard-copy"></g>
+                                <g id="Layer1"></g>
+                            </g>
+                        </g>
+                    </svg>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'core:message-list' %}" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group">
+                    <svg
+                        class="w-10"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M19 21V15M19 15L17 17M19 15L21 17M21 11V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.0799 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.0799 19 6.2 19H13M20.6067 8.26229L15.5499 11.6335C14.2669 12.4888 13.6254 12.9165 12.932 13.0827C12.3192 13.2295 11.6804 13.2295 11.0677 13.0827C10.3743 12.9165 9.73279 12.4888 8.44975 11.6335L3.14746 8.09863"
+                                stroke="#ffffff"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></path>
+                        </g>
+                    </svg>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Outbox</span>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'account_logout' %}" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group">
+                    <svg
+                        class="w-10"
+                        fill="#ffffff"
+                        viewBox="0 0 24 24"
+                        id="sign-out-left-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon line"
+                        stroke="#ffffff"
+                    >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path id="primary" d="M17,12H8m-4.62.69L6.5,14.83A1,1,0,0,0,8,14.14V9.86a1,1,0,0,0-1.5-.69L3.38,11.31A.82.82,0,0,0,3.38,12.69ZM12,8V5a1,1,0,0,1,1-1h7a1,1,0,0,1,1,1V19a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V16" style="fill: none; stroke: #ffffff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path>
+                        </g>
+                    </svg>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
